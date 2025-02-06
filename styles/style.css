@@ -1,0 +1,55 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background-color:#F6DED8;
+}
+
+                                /* Segundo exercício */
+/* 2) Destacando títulos com CSS
+Imagine que você está desenvolvendo um blog e precisa destacar os títulos das postagens. Crie uma classe
+ CSS chamada "titulo-blog" e aplique-a a elementos <h1>no seu arquivo HTML. Em seguida, personalize essa 
+ classe no arquivo CSS para mudar a cor do texto, para dar mais destaque.
+ */
+
+.titulo__blog{
+  color:#D2665A ;
+  text-align: center;
+}
+
+                              /* Primeiro exercício */
+/* Estilizando elementos com classes CSS
+Você está trabalhando no desenvolvimento de uma página web e precisa aplicar estilos específicos a 
+diferentes elementos usando classes CSS. Seu desafio é criar uma classe chamada "texto-destaque" 
+no arquivo HTML para um elemento <p>e, em seguida, estilizar essa classe no arquivo CSS para 
+alterar a cor do texto. Use sua criatividade para escolher cores que tornem o texto destacado, 
+mas ainda legível e harmonioso com o design geral da página.
+ */
+.texto__destaque{
+  color: #D2665A;
+  font-size: 1.5rem;
+  font-family: 'Krona One', sans-serif;
+}
+
+                              /* Terceiro exercício */
+/* 3) Estilos situacionais com classes CSS
+Você está trabalhando em um site de notícias e precisa aplicar um estilo diferente para notícias urgentes. 
+Crie uma classe CSS chamada "urgente" e aplique-a a elementos <p>que contêm notícias urgentes. No CSS, faça 
+com que o texto desses parágrafos seja vermelho, para chamar a atenção do leitor.
+ */
+ .urgente{
+  color: #eb0520;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+ }
+
+ .urgente__div{
+  background-color: #F6DED8;
+ }
+
+ .urgente__div__paragrafo{
+  color: #eb0520;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+
+ }

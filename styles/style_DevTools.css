@@ -1,0 +1,27 @@
+/* Resetar os estilos padrões do navegador */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Aplicar novos estilos */
+.paragrafo__aplicando{
+  margin: 15px; /*[MARGIN] É o espaço ao redor do elemento, fora da borda. Separa um elemento de outros elementos
+                  ao seu redor.
+                  Consequência: Não afeta a renderização interna do elemento, mas afeta a distância entre o 
+                  elemento inspecionado e outros elementos na página. Usada para controlar o espaçamento 
+                  entre os elementos.*/
+  border: 2px;  /*[BORDER] É a linha que fica ao redor do conteúdo e do preenchimento. Pode ser definido largura, cor e
+                  estilo. Fica fora do preenchimento, mas dentro da área total do elemento.
+                  Cosequência: Pode aumentar o espaço total do elemento na página, afetando o layout*/
+  border-color: blue;
+  padding: 10px; /*[PADDING] É o espaço entre o conteúdo e a borda do elemento, 
+                    cria um espaçamento interno entre o conteúdo e a borda
+                    Consequêcia: Aumenta o espaço dentro do elemento sem afetar diretamente a altura
+                    ou a largura. Espaço adicionado dentro da caixa*/
+  content: 5px; /*[CONTENT] É a área de exibição do conteúdo (imagens, texto...)A altura do conteúdo
+                  e a sua largura  definidas usando as propriedades [width] e [height] do elemnto.
+                  Consequência: O núcleo do elemento é o conteúdo, tudo que é adicionado nesse elemento 
+                  aparece nesta área. */
+
+}
