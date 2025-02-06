@@ -1,4 +1,4 @@
-# lista_1-exercicio
+# Lista_1-exercícios
 
 ## Exercício eleborado pela Alura do curso ONE
 
